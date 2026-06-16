@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd lumina && npm install && npm run build",
+  "outputDirectory": "lumina/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
